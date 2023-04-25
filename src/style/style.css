@@ -2,17 +2,6 @@
 
 :root {
   font-family: "Lato", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  --gray: #2a2a2a;
-  --dark-gray: #1e1e1e;
-  --screen-margin: 200px;
-  --default-padding: 20px;
-  --default-gap: 15px;
-  --color-theme-dark: rgb(62, 116, 100);
-  --color-theme-dark: rgb(150, 80, 111);
-  --color-theme: rgb(101, 185, 160);
-  --color-theme: rgb(207, 114, 156);
-  --color-theme-light: rgb(144, 230, 204);
-  --color-theme-light: rgb(238, 149, 189);
   color: #252525;
   font-size: 1rem;
   box-sizing: border-box;
