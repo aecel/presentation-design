@@ -1,7 +1,13 @@
-import "./style/style.css"
+import Main from "./components/Main"
+import style from "./style/style.css"
+import animations from "./style/animations.css"
 
-function App() {
-  return <div className="App"></div>
+const App = () => {
+  return (
+    <div className="App">
+      <Main />
+    </div>
+  )
 }
 
 export default App
