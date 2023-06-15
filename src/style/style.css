@@ -262,6 +262,10 @@ button:active {
   /* padding-bottom: 200px; */
 }
 
+.introduction-text {
+  line-height: 2;
+}
+
 #ContactMe {
   /* overflow: clip; */
   /* padding-top: 250px; */

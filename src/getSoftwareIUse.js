@@ -9,11 +9,11 @@ const getSoftwareIUse = () => {
   )
 
   // Sample pattern of each image in logoImages
-  // "/design-portfolio/static/media/Microsoft PowerPoint.003bdf649cda02ba4645.png"
+  // "/presentation-design/static/media/Microsoft PowerPoint.003bdf649cda02ba4645.png"
   // Goal is to get "Microsoft Powerpoint" string
 
-  // Change the repo name "design-portfolio" if you changed your repo name
-  const repoNameLength = "/design-portfolio".length + "/static/media/".length
+  // Change the repo name "presentation-design" if you changed your repo name
+  const repoNameLength = "/presentation-design".length + "/static/media/".length
   // Gets the name of each image
   const nameArray = logoImages.map((imageSrc) => {
     return imageSrc.slice(repoNameLength, imageSrc.indexOf("."))

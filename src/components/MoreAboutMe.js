@@ -17,11 +17,11 @@ const MoreAboutMe = () => {
     >
       <h1 className="grid-title">Welcome!</h1>
       <div>
-        Hello and welcome to my portfolio website! My name is Aecel and I am a
+        Hello and welcome to my portfolio website! My name is Ace and I am a
         graphic designer and presentation specialist with a passion for creating
-        impactful visual designs. With {numOfYears} years of experience in the
-        field, I have worked with a variety of clients ranging from startups to
-        Fortune 500 companies, helping them to communicate their ideas and
+        impactful visual presentations. With {numOfYears} years of experience in
+        the field, I have worked with a variety of clients ranging from startups
+        to Fortune 500 companies, helping them to communicate their ideas and
         messages through compelling visual storytelling.
       </div>
       <div>
@@ -33,7 +33,7 @@ const MoreAboutMe = () => {
       </div>
       <div>
         In this portfolio, you will find a selection of my best work, showcasing
-        my ability to turn complex ideas into clear and concise visual designs.
+        my ability to turn complex ideas into clear and concise visualizations.
         Each project presented here reflects my commitment to quality, attention
         to detail, and ability to think creatively to solve design problems.
       </div>

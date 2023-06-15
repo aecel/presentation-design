@@ -47,19 +47,19 @@ const Main = () => {
           <button className="header-button" ref={presentationRef}>
             Presentations
           </button>
+          <button className="header-button" ref={beforeAfterRef}>
+            More Samples
+          </button>
+          <button className="header-button" ref={illustrationsRef}>
+            Other Works
+          </button>
           <button
             className="header-button"
-            ref={beforeAfterRef}
+            ref={webDesignRef}
             style={{
               display: "none",
             }}
           >
-            More Presentations
-          </button>
-          <button className="header-button" ref={illustrationsRef}>
-            Illustrations
-          </button>
-          <button className="header-button" ref={webDesignRef}>
             Web Design
           </button>
           <button className="header-button" ref={contactMeRef}>
@@ -101,23 +101,23 @@ const Main = () => {
             className="hamburger-item"
             ref={beforeAfterHamburgerRef}
             onClick={toggleHamburgerMenu}
-            style={{
-              display: "none",
-            }}
           >
-            More Presentations
+            More Samples
           </button>
           <button
             className="hamburger-item"
             ref={illustrationsHamburgerRef}
             onClick={toggleHamburgerMenu}
           >
-            Illustrations
+            Other Works
           </button>
           <button
             className="hamburger-item"
             ref={webDesignHamburgerRef}
             onClick={toggleHamburgerMenu}
+            style={{
+              display: "none",
+            }}
           >
             Web Design
           </button>

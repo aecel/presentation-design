@@ -41,19 +41,17 @@ const Introduction = ({ triggerRef, triggerRef2 }) => {
             height: "auto",
           }}
         /> */}
-        <h1 className="grid-title">Hi, I'm Aecel</h1>
-        <div
-          style={{
-            lineHeight: "2",
-          }}
-        >
+        <h1 className="grid-title">Hi, I'm Ace</h1>
+        <div className="introduction-text">
           I'm a freelance graphic designer specializing in{" "}
           <em className="emphasize-text">presentation design </em>
           and <em className="emphasize-text">vector illustration</em>.
         </div>
-        <div>
-          I have <em className="emphasize-text">{numOfYears} years</em> of
-          experience.
+        <div className="introduction-text">
+          I have <em className="emphasize-text">{numOfYears + 3} years</em> of
+          experience in vector illustration and{" "}
+          <em className="emphasize-text">{numOfYears} years</em> of experience
+          in presentation design.
         </div>
       </div>
       {/* <WavesVideo /> */}
