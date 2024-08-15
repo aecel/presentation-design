@@ -1,7 +1,9 @@
 {
   "files": {
     "main.css": "/presentation-design/static/css/main.fffb0828.css",
-    "main.js": "/presentation-design/static/js/main.b45d9b0d.js",
+    "main.js": "/presentation-design/static/js/main.f605dd6f.js",
+    "static/media/eData FTP Server App shortened.gif": "/presentation-design/static/media/eData FTP Server App shortened.5fed4f51561020bb778e.gif",
+    "static/media/Skill Tree Lorem Ipsum.gif": "/presentation-design/static/media/Skill Tree Lorem Ipsum.93bb672e2e4f9b2b10e8.gif",
     "static/media/restaurant.webp": "/presentation-design/static/media/restaurant.8e673b08a58957b4441d.webp",
     "static/media/shazam v10-01.webp": "/presentation-design/static/media/shazam v10-01.735861365201fb6589ef.webp",
     "static/media/shopping-cart.webp": "/presentation-design/static/media/shopping-cart.1a526d537873834ee39f.webp",
@@ -61,10 +63,10 @@
     "static/media/CSS.svg": "/presentation-design/static/media/CSS.98daf49e4be2b88d6c17.svg",
     "static/media/HTML.svg": "/presentation-design/static/media/HTML.74577817dde8fee285d3.svg",
     "main.fffb0828.css.map": "/presentation-design/static/css/main.fffb0828.css.map",
-    "main.b45d9b0d.js.map": "/presentation-design/static/js/main.b45d9b0d.js.map"
+    "main.f605dd6f.js.map": "/presentation-design/static/js/main.f605dd6f.js.map"
   },
   "entrypoints": [
     "static/css/main.fffb0828.css",
-    "static/js/main.b45d9b0d.js"
+    "static/js/main.f605dd6f.js"
   ]
 }
