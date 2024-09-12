@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/presentation-design/static/css/main.fffb0828.css",
-    "main.js": "/presentation-design/static/js/main.ec7c5055.js",
-    "static/media/Slide000.gif": "/presentation-design/static/media/Slide000.5fed4f51561020bb778e.gif",
+    "main.js": "/presentation-design/static/js/main.0b19326f.js",
+    "static/media/Slide002.gif": "/presentation-design/static/media/Slide002.2abe86f44149eb468202.gif",
+    "static/media/Slide000.gif": "/presentation-design/static/media/Slide000.bd5c31e012250e44275f.gif",
     "static/media/Slide001.gif": "/presentation-design/static/media/Slide001.eff7cb1cee9b7fed44fe.gif",
     "static/media/restaurant.webp": "/presentation-design/static/media/restaurant.8e673b08a58957b4441d.webp",
     "static/media/shazam v10-01.webp": "/presentation-design/static/media/shazam v10-01.735861365201fb6589ef.webp",
@@ -63,10 +64,10 @@
     "static/media/CSS.svg": "/presentation-design/static/media/CSS.98daf49e4be2b88d6c17.svg",
     "static/media/HTML.svg": "/presentation-design/static/media/HTML.74577817dde8fee285d3.svg",
     "main.fffb0828.css.map": "/presentation-design/static/css/main.fffb0828.css.map",
-    "main.ec7c5055.js.map": "/presentation-design/static/js/main.ec7c5055.js.map"
+    "main.0b19326f.js.map": "/presentation-design/static/js/main.0b19326f.js.map"
   },
   "entrypoints": [
     "static/css/main.fffb0828.css",
-    "static/js/main.ec7c5055.js"
+    "static/js/main.0b19326f.js"
   ]
 }
