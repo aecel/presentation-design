@@ -4,14 +4,12 @@ import ContactMe from "./ContactMe"
 import Footer from "./Footer"
 import Introduction from "./Introduction"
 import MoreAboutMe from "./MoreAboutMe"
-import RecentWork from "./RecentWork"
 import SampleWorks from "./SampleWorks"
 import SoftwareIUse from "./SoftwareIUse"
 
 const Main = () => {
   const aboutMeRef = useRef()
   const softwareRef = useRef()
-  const recentWorkRef = useRef()
   const presentationRef = useRef()
   const beforeAfterRef = useRef()
   const illustrationsRef = useRef()
@@ -20,7 +18,6 @@ const Main = () => {
 
   const aboutMeHamburgerRef = useRef()
   const softwareHamburgerRef = useRef()
-  const recentWorkHamburgerRef = useRef()
   const presentationHamburgerRef = useRef()
   const beforeAfterHamburgerRef = useRef()
   const illustrationsHamburgerRef = useRef()
@@ -47,7 +44,7 @@ const Main = () => {
           <button className="header-button" ref={softwareRef}>
             Software I Use
           </button>
-          <button className="header-button" ref={recentWorkRef}>
+          <button className="header-button" ref={presentationRef}>
             Presentations
           </button>
           <button className="header-button" ref={beforeAfterRef}>
@@ -95,7 +92,7 @@ const Main = () => {
           </button>
           <button
             className="hamburger-item"
-            ref={recentWorkHamburgerRef}
+            ref={presentationHamburgerRef}
             onClick={toggleHamburgerMenu}
           >
             Presentations
@@ -145,10 +142,6 @@ const Main = () => {
         <SoftwareIUse
           triggerRef={softwareRef}
           triggerRef2={softwareHamburgerRef}
-        />
-        <RecentWork
-          triggerRef={recentWorkRef}
-          triggerRef2={recentWorkHamburgerRef}
         />
         <SampleWorks
           presentationRef={presentationRef}

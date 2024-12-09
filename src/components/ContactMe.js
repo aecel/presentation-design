@@ -18,7 +18,7 @@ const ContactMe = ({ triggerRef, triggerRef2 }) => {
     }
   }, [triggerRef, triggerRef2])
   return (
-    <section id="ContactMe" className="main-section" ref={sectionRef}>
+    <div id="ContactMe" className="main-section" ref={sectionRef}>
       <div
         className="flex-center"
         style={{
@@ -58,10 +58,9 @@ const ContactMe = ({ triggerRef, triggerRef2 }) => {
         >
           Hire Me
         </a>
-        <div>Email: sniffysloth@gmail.com</div>
       </div>
       {/* <WavesVideo /> */}
-    </section>
+    </div>
   )
 }
 
