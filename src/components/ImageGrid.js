@@ -21,8 +21,11 @@ const ImageGrid = ({
 
   useEffect(() => {
     const trigger = triggerRef.current
-    trigger.addEventListener("click", scroll)
     const trigger2 = triggerRef2.current
+    if (!trigger) return
+    if (!trigger2) return
+
+    trigger.addEventListener("click", scroll)
     trigger2.addEventListener("click", scroll)
 
     return () => {

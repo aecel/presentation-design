@@ -8,8 +8,11 @@ const RecentWork = ({ triggerRef, triggerRef2 }) => {
 
   useEffect(() => {
     const trigger = triggerRef.current
-    trigger.addEventListener("click", scroll)
     const trigger2 = triggerRef2.current
+    if (!trigger) return
+    if (!trigger2) return
+
+    trigger.addEventListener("click", scroll)
     trigger2.addEventListener("click", scroll)
 
     return () => {
@@ -52,20 +55,20 @@ const RecentWork = ({ triggerRef, triggerRef2 }) => {
             height="315"
             src="https://www.youtube-nocookie.com/embed/Bryz_dnEitM?si=GZQxrJNkrYkLcREK"
             title="YouTube video player"
-            frameborder="0"
+            frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
           ></iframe>
           <iframe
             width="560"
             height="315"
             src="https://www.youtube-nocookie.com/embed/u6b4OhUfLv8?si=kcE7BclQgqviyHWf"
             title="YouTube video player"
-            frameborder="0"
+            frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
           ></iframe>
         </div>
       </div>
