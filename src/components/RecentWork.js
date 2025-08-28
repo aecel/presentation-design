@@ -53,7 +53,7 @@ const RecentWork = ({ triggerRef, triggerRef2 }) => {
           <iframe
             width="560"
             height="315"
-            src="https://www.youtube-nocookie.com/embed/Bryz_dnEitM?si=GZQxrJNkrYkLcREK"
+            src="https://www.youtube-nocookie.com/embed/u6b4OhUfLv8?si=kcE7BclQgqviyHWf"
             title="YouTube video player"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -63,7 +63,7 @@ const RecentWork = ({ triggerRef, triggerRef2 }) => {
           <iframe
             width="560"
             height="315"
-            src="https://www.youtube-nocookie.com/embed/u6b4OhUfLv8?si=kcE7BclQgqviyHWf"
+            src="https://www.youtube-nocookie.com/embed/Bryz_dnEitM?si=GZQxrJNkrYkLcREK"
             title="YouTube video player"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
