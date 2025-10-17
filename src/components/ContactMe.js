@@ -58,6 +58,7 @@ const ContactMe = ({ triggerRef, triggerRef2 }) => {
         <a
           id="HireMeButton"
           href="https://calendly.com/acunapresentations"
+          target="_blank"
         >
           Hire Me
         </a>
