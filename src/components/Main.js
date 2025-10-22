@@ -43,6 +43,7 @@ const Main = () => {
       <header>
         <div className="header-elements">
           <img
+            id="header-logo"
             src={APLogoWhite}
             alt=""
             style={{
