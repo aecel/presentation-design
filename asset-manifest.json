@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/presentation-design/static/css/main.31ad9bfa.css",
-    "main.js": "/presentation-design/static/js/main.ed8c190f.js",
+    "main.css": "/presentation-design/static/css/main.974d149b.css",
+    "main.js": "/presentation-design/static/js/main.a37262d3.js",
     "static/media/Slide002.gif": "/presentation-design/static/media/Slide002.2abe86f44149eb468202.gif",
     "static/media/Slide000.gif": "/presentation-design/static/media/Slide000.bd5c31e012250e44275f.gif",
     "static/media/Slide001.gif": "/presentation-design/static/media/Slide001.eff7cb1cee9b7fed44fe.gif",
@@ -65,11 +65,11 @@
     "static/media/Visual Studio Code.svg": "/presentation-design/static/media/Visual Studio Code.dc493010b0221541533e.svg",
     "static/media/CSS.svg": "/presentation-design/static/media/CSS.98daf49e4be2b88d6c17.svg",
     "static/media/HTML.svg": "/presentation-design/static/media/HTML.74577817dde8fee285d3.svg",
-    "main.31ad9bfa.css.map": "/presentation-design/static/css/main.31ad9bfa.css.map",
-    "main.ed8c190f.js.map": "/presentation-design/static/js/main.ed8c190f.js.map"
+    "main.974d149b.css.map": "/presentation-design/static/css/main.974d149b.css.map",
+    "main.a37262d3.js.map": "/presentation-design/static/js/main.a37262d3.js.map"
   },
   "entrypoints": [
-    "static/css/main.31ad9bfa.css",
-    "static/js/main.ed8c190f.js"
+    "static/css/main.974d149b.css",
+    "static/js/main.a37262d3.js"
   ]
 }
