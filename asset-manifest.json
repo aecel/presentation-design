@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/presentation-design/static/css/main.fffb0828.css",
-    "main.js": "/presentation-design/static/js/main.4cb21e52.js",
+    "main.css": "/presentation-design/static/css/main.31ad9bfa.css",
+    "main.js": "/presentation-design/static/js/main.ed8c190f.js",
     "static/media/Slide002.gif": "/presentation-design/static/media/Slide002.2abe86f44149eb468202.gif",
     "static/media/Slide000.gif": "/presentation-design/static/media/Slide000.bd5c31e012250e44275f.gif",
     "static/media/Slide001.gif": "/presentation-design/static/media/Slide001.eff7cb1cee9b7fed44fe.gif",
@@ -45,16 +45,18 @@
     "static/media/take your time.webp": "/presentation-design/static/media/take your time.16d353aead28cf2f9316.webp",
     "static/media/Callipeg.png": "/presentation-design/static/media/Callipeg.f212f209b7a7429e9eb3.png",
     "static/media/mortal engines.webp": "/presentation-design/static/media/mortal engines.88884f0107d5c34a8c8a.webp",
+    "static/media/APLogo.png": "/presentation-design/static/media/APLogo.b8d84bf5e2db0a522ce3.png",
     "static/media/downsizing.webp": "/presentation-design/static/media/downsizing.d233398facb5aa0f6c3c.webp",
     "static/media/kingsman.webp": "/presentation-design/static/media/kingsman.c09d5241fb7735a3de26.webp",
     "static/media/la llorona v2-01.webp": "/presentation-design/static/media/la llorona v2-01.966e3cbc81f4b896884c.webp",
+    "static/media/APLogoWhite.png": "/presentation-design/static/media/APLogoWhite.ffee89f4a8f1eec151ad.png",
     "static/media/Figma.png": "/presentation-design/static/media/Figma.257e6178b0dce1bce576.png",
     "static/media/shazam v6-01.webp": "/presentation-design/static/media/shazam v6-01.7316e223b1815a35c82a.webp",
     "static/media/good omens v1-01.webp": "/presentation-design/static/media/good omens v1-01.d45b97915673e712066c.webp",
     "static/media/React.svg": "/presentation-design/static/media/React.1495a6a0c751ac52af31.svg",
     "static/media/Adobe Photoshop.svg": "/presentation-design/static/media/Adobe Photoshop.a0e7f565a7116631ff39.svg",
-    "static/media/Adobe After Effects.svg": "/presentation-design/static/media/Adobe After Effects.8a8179fcee96fcddb56c.svg",
     "index.html": "/presentation-design/index.html",
+    "static/media/Adobe After Effects.svg": "/presentation-design/static/media/Adobe After Effects.8a8179fcee96fcddb56c.svg",
     "static/media/Microsoft Powerpoint.svg": "/presentation-design/static/media/Microsoft Powerpoint.316b243d8ce3d8bc0d1a.svg",
     "static/media/Inkscape.svg": "/presentation-design/static/media/Inkscape.8990b1d80bcd6a68856b.svg",
     "static/media/Adobe Illustrator.svg": "/presentation-design/static/media/Adobe Illustrator.6123b96c84b05bb0d517.svg",
@@ -63,11 +65,11 @@
     "static/media/Visual Studio Code.svg": "/presentation-design/static/media/Visual Studio Code.dc493010b0221541533e.svg",
     "static/media/CSS.svg": "/presentation-design/static/media/CSS.98daf49e4be2b88d6c17.svg",
     "static/media/HTML.svg": "/presentation-design/static/media/HTML.74577817dde8fee285d3.svg",
-    "main.fffb0828.css.map": "/presentation-design/static/css/main.fffb0828.css.map",
-    "main.4cb21e52.js.map": "/presentation-design/static/js/main.4cb21e52.js.map"
+    "main.31ad9bfa.css.map": "/presentation-design/static/css/main.31ad9bfa.css.map",
+    "main.ed8c190f.js.map": "/presentation-design/static/js/main.ed8c190f.js.map"
   },
   "entrypoints": [
-    "static/css/main.fffb0828.css",
-    "static/js/main.4cb21e52.js"
+    "static/css/main.31ad9bfa.css",
+    "static/js/main.ed8c190f.js"
   ]
 }
