@@ -60,9 +60,9 @@ const ContactMe = ({ triggerRef, triggerRef2 }) => {
           href="https://calendly.com/acunapresentations"
           target="_blank"
         >
-          Hire Me
+          Book a Meeting
         </a>
-        <div>Email: acunapresentations@gmail.com</div>
+        <div>Email: acunapresentations@gmail.com | sniffysloth@gmail.com</div>
       </div>
       {/* <WavesVideo /> */}
     </section>

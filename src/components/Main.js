@@ -7,6 +7,7 @@ import MoreAboutMe from "./MoreAboutMe"
 import RecentWork from "./RecentWork"
 import SampleWorks from "./SampleWorks"
 import SoftwareIUse from "./SoftwareIUse"
+import APLogoWhite from "../images/APLogoWhite.png"
 
 const Main = () => {
   const aboutMeRef = useRef()
@@ -41,6 +42,14 @@ const Main = () => {
     <>
       <header>
         <div className="header-elements">
+          <img
+            src={APLogoWhite}
+            alt=""
+            style={{
+              width: "25px",
+              height: "auto",
+            }}
+          />
           <button className="header-button" ref={aboutMeRef}>
             About Me
           </button>

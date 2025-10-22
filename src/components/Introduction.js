@@ -1,5 +1,7 @@
 import { useEffect, useRef } from "react"
 import SpacingForHeader from "./SpacingForHeader"
+import APLogo from "../images/APLogo.png"
+
 const yearNow = new Date().getFullYear()
 const numOfYears = yearNow - 2017
 
@@ -41,6 +43,14 @@ const Introduction = ({ triggerRef, triggerRef2 }) => {
           alt=""
           style={{
             width: "300px",
+            height: "auto",
+          }}
+        /> */}
+        {/* <img
+          src={APLogo}
+          alt=""
+          style={{
+            width: "150px",
             height: "auto",
           }}
         /> */}
