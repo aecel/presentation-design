@@ -1,6 +1,5 @@
 import { useEffect, useRef } from "react"
 import SpacingForHeader from "./SpacingForHeader"
-import APLogo from "../images/APLogo.png"
 
 const yearNow = new Date().getFullYear()
 const numOfYears = yearNow - 2017
