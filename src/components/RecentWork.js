@@ -1,5 +1,10 @@
 import { useEffect, useRef } from "react"
+import VideoSample from "./VideoSample"
 const RecentWork = ({ triggerRef, triggerRef2 }) => {
+  // const videoId1 = "u6b4OhUfLv8"
+  const videoId1 = "yH_P7d5J2tY" 
+  // const videoId2 = "Bryz_dnEitM"
+  const videoId2 = "qigrdFR74bM"
   const sectionRef = useRef()
 
   const scroll = () => {
@@ -50,26 +55,38 @@ const RecentWork = ({ triggerRef, triggerRef2 }) => {
             justifyContent: "center",
           }}
         >
-          <iframe
+          {/* <iframe
+            id="youtube-video"
             width="560"
             height="315"
-            src="https://www.youtube-nocookie.com/embed/u6b4OhUfLv8?si=kcE7BclQgqviyHWf"
+            src="https://www.youtube.com/embed/VIDEO_ID?mute=1"
+            frameborder="0"
+            allow="autoplay; encrypted-media"
+            allowfullscreen
+          ></iframe> */}
+          {/* <iframe
+            id="youtube-video-1"
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/u6b4OhUfLv8?si=kcE7BclQgqviyHWf?mute=1"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            // referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          ></iframe> */}
+          <VideoSample videoId={videoId1} />
+          <VideoSample videoId={videoId2} />
+          {/* <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/Bryz_dnEitM?si=GZQxrJNkrYkLcREK"
             title="YouTube video player"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerPolicy="strict-origin-when-cross-origin"
             allowFullScreen
-          ></iframe>
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube-nocookie.com/embed/Bryz_dnEitM?si=GZQxrJNkrYkLcREK"
-            title="YouTube video player"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerPolicy="strict-origin-when-cross-origin"
-            allowFullScreen
-          ></iframe>
+          ></iframe> */}
         </div>
       </div>
     </section>
