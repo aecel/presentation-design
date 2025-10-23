@@ -18,11 +18,11 @@ const MoreAboutMe = () => {
       <h1 className="grid-title">Welcome!</h1>
       <div>
         Hello and welcome to my portfolio website! My name is Ace and I am a
-        graphic designer and presentation specialist with a passion for creating
-        impactful visual presentations. With {numOfYears} years of experience in
-        the field, I have worked with a variety of clients ranging from startups
-        to Fortune 500 companies, helping them to communicate their ideas and
-        messages through compelling visual storytelling.
+        presentation specialist with a passion for creating impactful visual
+        presentations. With {numOfYears} years of experience in the field, I
+        have worked with a variety of clients ranging from startups to Fortune
+        500 companies, helping them to communicate their ideas and messages
+        through compelling visual storytelling.
       </div>
       <div>
         Throughout my career, I have gained expertise in various design software

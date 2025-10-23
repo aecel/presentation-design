@@ -56,7 +56,7 @@ const Introduction = ({ triggerRef, triggerRef2 }) => {
         /> */}
         <h1 className="grid-title">Hi, I'm Ace</h1>
         <div className="introduction-text">
-          I'm a freelance graphic designer specializing in{" "}
+          I'm a freelance designer specializing in{" "}
           <em className="emphasize-text">presentation design </em>
           and <em className="emphasize-text">vector illustration</em>.
         </div>
@@ -66,6 +66,12 @@ const Introduction = ({ triggerRef, triggerRef2 }) => {
           <em className="emphasize-text">{numOfYears} years</em> of experience
           in presentation design.
         </div>
+        {/* <div className="introduction-text">
+          I'm a freelance{" "}
+          <em className="emphasize-text">presentation design specialist </em>
+          with{" "}
+          <em className="emphasize-text">{numOfYears} years</em> of experience.
+        </div> */}
       </div>
       {/* <WavesVideo /> */}
     </section>
