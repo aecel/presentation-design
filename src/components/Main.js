@@ -6,7 +6,7 @@ import Introduction from "./Introduction"
 import MoreAboutMe from "./MoreAboutMe"
 import RecentWork from "./RecentWork"
 import SampleWorks from "./SampleWorks"
-import SoftwareIUse from "./SoftwareIUse"
+import SoftwareIUse from "./Brands"
 import APLogoWhite from "../images/APLogoWhite.png"
 
 const Main = () => {
@@ -55,7 +55,7 @@ const Main = () => {
             About Me
           </button>
           <button className="header-button" ref={softwareRef}>
-            Software I Use
+            Brands
           </button>
           <button className="header-button" ref={recentWorkRef}>
             Presentations
@@ -101,7 +101,7 @@ const Main = () => {
             ref={softwareHamburgerRef}
             onClick={toggleHamburgerMenu}
           >
-            Software I Use
+            Brands
           </button>
           <button
             className="hamburger-item"

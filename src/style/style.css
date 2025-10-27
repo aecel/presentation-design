@@ -438,6 +438,23 @@ button:active {
   text-align: center;
 }
 
+/* Brand Block component */
+
+.brand-blocks {
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.rounded-square-icon-container-two {
+  /* height: 60px; */
+  width: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /* Media Queries */
 
 @media (max-width: 1200px) {

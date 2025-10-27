@@ -42,7 +42,7 @@ const ContactMe = ({ triggerRef, triggerRef2 }) => {
           style={{
             alignSelf: "center",
             maxWidth: "600px",
-            gap: "50px",
+            // gap: "2px",
             textAlign: "center",
             zIndex: "1",
             lineHeight: "3",
@@ -50,9 +50,11 @@ const ContactMe = ({ triggerRef, triggerRef2 }) => {
           }}
         >
           <div>
-            Thank you for taking the time to visit my portfolio website. Please
-            feel free to reach out to me for any inquiries or potential design
-            opportunities.
+            Thank you for taking the time to visit my portfolio website.
+          </div>
+          <div>
+            Please feel free to reach out to me for any inquiries or potential
+            design opportunities.
           </div>
         </div>
         <a
