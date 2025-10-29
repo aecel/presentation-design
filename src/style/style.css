@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 
 :root {
-  font-family: "Lato", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", "Lato", Tahoma, Geneva, Verdana, sans-serif;
   --gray: #2a2a2a;
   --dark-gray: #1e1e1e;
   --screen-margin: 200px;
@@ -95,7 +95,7 @@ footer {
 }
 
 .emphasize-text {
-  color: var(--color-theme-dark);
+  color: var(--color-theme);
   font-weight: bold;
   font-style: normal;
 }
@@ -355,6 +355,16 @@ button:active {
   box-sizing: border-box;
 }
 
+.grid-title-intro {
+  background-color: var(--color-theme-blue);
+  color: #e6e6e6;
+  padding: 15px 25px 15px 25px;
+  font-size: 1.8rem;
+  min-width: 400px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
 .grid-image {
   width: 220px;
   height: auto;
@@ -375,8 +385,9 @@ button:active {
 
 /* ContactMe component */
 
-#HireMeButton {
-  font-size: 1.7rem;
+.hire-me-button, #HireMeButton {
+  margin-top: 20px;
+  font-size: 1.6rem;
   text-decoration: none;
   color: white;
   font-weight: bold;
@@ -384,7 +395,7 @@ button:active {
   padding: 15px 25px 15px 25px;
   background-color: var(--color-theme);
   border: none;
-  border-radius: 10px;
+  border-radius: 36px;
 }
 
 #HireMeButton:hover {
@@ -455,6 +466,78 @@ button:active {
   justify-content: center;
 }
 
+
+.introduction-layout {
+  display: flex;
+  flex-direction: row;
+  max-width: 1200px;
+  gap: 100px;
+}
+
+
+.mobile-introduction-images {
+  display: none;
+  height: 500px;
+  margin-bottom: 400px;
+}
+
+.desktop-introduction-images {
+  display: block;
+  margin-left: 160px;
+}
+
+.intro-image-desktop, .intro-image-mobile {
+  border-radius: 10px;
+  box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.3);
+}
+
+.intro-images-layout {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.intro-image-desktop:nth-child(2) {
+  position: relative;
+  top: -20px;
+  right: 45px;
+}
+
+.intro-image-desktop:nth-child(3) {
+  position: relative;
+  top: -40px;
+}
+
+/* the arrow for desktop */
+.intro-arrow-desktop {
+  position: absolute;
+  left: -200px;
+}
+
+.intro-image-mobile:nth-child(1) {
+  position: absolute;
+  left: -300px;
+}
+
+.intro-image-mobile:nth-child(2) {
+  position: absolute;
+  top: 60px;
+  /* right: -45px; */
+}
+
+.intro-image-mobile:nth-child(3) {
+  position: absolute;
+  top: 200px;
+  left: -250px;
+}
+
+.intro-arrow-mobile {
+  position: absolute;
+  top: 280px;
+  left: 120px;
+}
+
+
 /* Media Queries */
 
 @media (max-width: 1200px) {
@@ -516,6 +599,14 @@ button:active {
   /* #header-logo {
     display: flex;
   } */
+
+  .mobile-introduction-images {
+    display: block;
+  }
+
+  .desktop-introduction-images {
+    display: none;
+  }
 }
 
 @media (max-width: 520px) {

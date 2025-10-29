@@ -38,6 +38,7 @@ const Brands = ({ triggerRef, triggerRef2 }) => {
             <BrandBlock
               key={brand.name}
               icon={brand.src}
+              text={brand.name}
             />
           )
         })}{" "}
