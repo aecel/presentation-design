@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/presentation-design/static/css/main.e2557bb1.css",
-    "main.js": "/presentation-design/static/js/main.4a33627b.js",
+    "main.css": "/presentation-design/static/css/main.8b2300e7.css",
+    "main.js": "/presentation-design/static/js/main.d8494a62.js",
     "static/media/Slide002.gif": "/presentation-design/static/media/Slide002.2abe86f44149eb468202.gif",
     "static/media/Slide000.gif": "/presentation-design/static/media/Slide000.bd5c31e012250e44275f.gif",
     "static/media/Slide001.gif": "/presentation-design/static/media/Slide001.eff7cb1cee9b7fed44fe.gif",
@@ -63,11 +63,11 @@
     "static/media/H&Z.svg": "/presentation-design/static/media/H&Z.f9eb4054380d227b0235.svg",
     "static/media/Valcon.svg": "/presentation-design/static/media/Valcon.4f82785b596e97173172.svg",
     "index.html": "/presentation-design/index.html",
-    "main.e2557bb1.css.map": "/presentation-design/static/css/main.e2557bb1.css.map",
-    "main.4a33627b.js.map": "/presentation-design/static/js/main.4a33627b.js.map"
+    "main.8b2300e7.css.map": "/presentation-design/static/css/main.8b2300e7.css.map",
+    "main.d8494a62.js.map": "/presentation-design/static/js/main.d8494a62.js.map"
   },
   "entrypoints": [
-    "static/css/main.e2557bb1.css",
-    "static/js/main.4a33627b.js"
+    "static/css/main.8b2300e7.css",
+    "static/js/main.d8494a62.js"
   ]
 }
