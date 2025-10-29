@@ -499,13 +499,13 @@ button:active {
 
 .intro-image-desktop:nth-child(2) {
   position: relative;
-  top: -20px;
-  right: 45px;
+  top: -30px;
+  right: 55px;
 }
 
 .intro-image-desktop:nth-child(3) {
   position: relative;
-  top: -40px;
+  top: -60px;
 }
 
 /* the arrow for desktop */
@@ -516,25 +516,25 @@ button:active {
 
 .intro-image-mobile:nth-child(1) {
   position: absolute;
-  left: -300px;
+  left: -220px;
 }
 
 .intro-image-mobile:nth-child(2) {
   position: absolute;
   top: 60px;
-  /* right: -45px; */
+  left: -50px;
 }
 
 .intro-image-mobile:nth-child(3) {
   position: absolute;
   top: 200px;
-  left: -250px;
+  left: -200px;
 }
 
 .intro-arrow-mobile {
   position: absolute;
-  top: 280px;
-  left: 120px;
+  top: 220px;
+  left: 90px;
 }
 
 

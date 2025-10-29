@@ -41,8 +41,8 @@ const Introduction = ({ triggerRef, triggerRef2 }) => {
               <img
                 className="intro-image-mobile"
                 src={src}
-                width={width}
-                height={height}
+                width={width*0.9}
+                // height={height}
                 key={index}
               />
             )
@@ -116,8 +116,8 @@ const Introduction = ({ triggerRef, triggerRef2 }) => {
                 <img
                   className="intro-image-desktop"
                   src={src}
-                  width={width}
-                  height={height}
+                  width={width*1.2}
+                  // height={height}
                   key={index}
                 />
               )
