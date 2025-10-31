@@ -8,7 +8,7 @@ const getIntroImages = () => {
     require.context(
       "./images/intro-images",
       false,
-      /\.(webp|gif|mp4)$/
+      /\.(webp|gif|mp4|avif)$/
     )
   )
 
