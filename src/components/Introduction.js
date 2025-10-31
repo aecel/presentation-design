@@ -44,6 +44,7 @@ const Introduction = ({ triggerRef, triggerRef2 }) => {
                 width={width*0.9}
                 // height={height}
                 key={index}
+                fetchPriority="high"
               />
             )
           )}
@@ -119,6 +120,7 @@ const Introduction = ({ triggerRef, triggerRef2 }) => {
                   width={width*1.2}
                   // height={height}
                   key={index}
+                  fetchPriority="high"
                 />
               )
             )}

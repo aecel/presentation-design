@@ -15,6 +15,7 @@ const ImageItem = ({ image, imageClasses }) => {
           onClick={open}
           src={image.src}
           alt={image.name}
+          loading="lazy"
         />
       )}
     </Item>
