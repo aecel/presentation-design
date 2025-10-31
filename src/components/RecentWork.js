@@ -1,10 +1,13 @@
 import { useEffect, useRef } from "react"
-import VideoSample from "./VideoSample"
+// import VideoSample from "./VideoSample"
 const RecentWork = ({ triggerRef, triggerRef2 }) => {
   // const videoId1 = "u6b4OhUfLv8"
-  const videoId1 = "yH_P7d5J2tY" 
+  const videoId1 = "yH_P7d5J2tY"
+
+  const videoSrc1 = `https://www.youtube.com/embed/${videoId1}?&mute=1&loop=1&playlist=${videoId1}`
   // const videoId2 = "Bryz_dnEitM"
   const videoId2 = "qigrdFR74bM"
+  const videoSrc2 = `https://www.youtube.com/embed/${videoId2}?&mute=1&loop=1&playlist=${videoId2}`
   const sectionRef = useRef()
 
   const scroll = () => {
@@ -75,8 +78,8 @@ const RecentWork = ({ triggerRef, triggerRef2 }) => {
             // referrerPolicy="strict-origin-when-cross-origin"
             allowFullScreen
           ></iframe> */}
-          <VideoSample videoId={videoId1} />
-          <VideoSample videoId={videoId2} />
+          {/* <VideoSample videoId={videoId1} />
+          <VideoSample videoId={videoId2} /> */}
           {/* <iframe
             width="560"
             height="315"
@@ -87,6 +90,28 @@ const RecentWork = ({ triggerRef, triggerRef2 }) => {
             referrerPolicy="strict-origin-when-cross-origin"
             allowFullScreen
           ></iframe> */}
+          <iframe
+            id="youtube-video-1"
+            width="560"
+            height="315"
+            src={videoSrc1}
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            // referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          ></iframe>
+          <iframe
+            id="youtube-video-1"
+            width="560"
+            height="315"
+            src={videoSrc2}
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            // referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          ></iframe>
         </div>
       </div>
     </section>
