@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/presentation-design/static/css/main.8b2300e7.css",
-    "main.js": "/presentation-design/static/js/main.09451928.js",
+    "main.js": "/presentation-design/static/js/main.07982288.js",
     "static/media/Slide002.gif": "/presentation-design/static/media/Slide002.2abe86f44149eb468202.gif",
     "static/media/Slide000.gif": "/presentation-design/static/media/Slide000.bd5c31e012250e44275f.gif",
     "static/media/Slide001.gif": "/presentation-design/static/media/Slide001.eff7cb1cee9b7fed44fe.gif",
-    "static/media/Slide000.webp": "/presentation-design/static/media/Slide000.c999b23f2205c7162a5d.webp",
     "static/media/weather-app.png": "/presentation-design/static/media/weather-app.89b86403fb1f4365d0f6.png",
-    "static/media/Slide001.webp": "/presentation-design/static/media/Slide001.c425844b4d40e7f4ea11.webp",
-    "static/media/Slide002.webp": "/presentation-design/static/media/Slide002.1818196c9d604adc3bb5.webp",
     "static/media/restaurant.webp": "/presentation-design/static/media/restaurant.8e673b08a58957b4441d.webp",
+    "static/media/Slide002.avif": "/presentation-design/static/media/Slide002.e12ec1083c3764c445c3.avif",
+    "static/media/Slide001.avif": "/presentation-design/static/media/Slide001.353b91ddfd2ef97dc022.avif",
+    "static/media/Slide000.avif": "/presentation-design/static/media/Slide000.879898485317ac1e9960.avif",
     "static/media/shazam v10-01.webp": "/presentation-design/static/media/shazam v10-01.735861365201fb6589ef.webp",
     "static/media/shopping-cart.webp": "/presentation-design/static/media/shopping-cart.1a526d537873834ee39f.webp",
     "static/media/maninthehighcastle.webp": "/presentation-design/static/media/maninthehighcastle.11de8f37c56351b5e896.webp",
@@ -67,10 +67,10 @@
     "static/media/Valcon.svg": "/presentation-design/static/media/Valcon.4f82785b596e97173172.svg",
     "index.html": "/presentation-design/index.html",
     "main.8b2300e7.css.map": "/presentation-design/static/css/main.8b2300e7.css.map",
-    "main.09451928.js.map": "/presentation-design/static/js/main.09451928.js.map"
+    "main.07982288.js.map": "/presentation-design/static/js/main.07982288.js.map"
   },
   "entrypoints": [
     "static/css/main.8b2300e7.css",
-    "static/js/main.09451928.js"
+    "static/js/main.07982288.js"
   ]
 }
