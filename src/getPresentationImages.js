@@ -5,14 +5,14 @@ const getPresentationImages = () => {
   }
 
   const presentationImages = importAll(
-    require.context("./images/slides", false, /\.(PNG|png|jpe?g|svg|webp|gif|mp4)$/)
+    require.context("./images/slides", false, /\.(PNG|png|jpe?g|svg|webp|gif|mp4|avif|AVIF)$/)
   )
 
   const presentationThumbnailImages = importAll(
     require.context(
       "./images/slides-thumbnails",
       false,
-      /\.(PNG|png|jpe?g|svg|webp|gif|mp4)$/
+      /\.(PNG|png|jpe?g|svg|webp|gif|mp4|avif|AVIF)$/
     )
   )
   let imagesArray = []
