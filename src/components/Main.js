@@ -58,10 +58,10 @@ const Main = () => {
             Brands
           </button>
           <button className="header-button" ref={recentWorkRef}>
-            Presentations
+            Case Studies
           </button>
-          <button className="header-button" ref={beforeAfterRef}>
-            More Samples
+          <button className="header-button" ref={presentationRef}>
+            Presentations
           </button>
           <button className="header-button" ref={illustrationsRef}>
             Other Works
@@ -108,14 +108,14 @@ const Main = () => {
             ref={recentWorkHamburgerRef}
             onClick={toggleHamburgerMenu}
           >
-            Presentations
+            Case Studies
           </button>
           <button
             className="hamburger-item"
-            ref={beforeAfterHamburgerRef}
+            ref={presentationHamburgerRef}
             onClick={toggleHamburgerMenu}
           >
-            More Samples
+            Presentations
           </button>
           <button
             className="hamburger-item"

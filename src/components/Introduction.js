@@ -52,6 +52,7 @@ const Introduction = ({ triggerRef, triggerRef2 }) => {
             className="intro-arrow-mobile"
             src={arrowMobile.src}
             width={170}
+            fetchPriority="high"
           />
         </div>
       </div>
@@ -117,8 +118,8 @@ const Introduction = ({ triggerRef, triggerRef2 }) => {
                 <img
                   className="intro-image-desktop"
                   src={src}
-                  width={width*1.2}
-                  // height={height}
+                  width={width}
+                  height={height}
                   key={index}
                   fetchPriority="high"
                 />
@@ -128,6 +129,7 @@ const Introduction = ({ triggerRef, triggerRef2 }) => {
               className="intro-arrow-desktop"
               src={arrowDesktop.src}
               width={200}
+              fetchPriority="high"
             />
           </div>
         </div>

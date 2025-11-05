@@ -37,7 +37,7 @@ const RecentWork = ({ triggerRef, triggerRef2 }) => {
           zIndex: "1",
         }}
       >
-        <h1 className="grid-title">Recent Work</h1>
+        <h1 className="grid-title">Case Studies</h1>
         <div
           style={{
             textAlign: "center",
@@ -90,28 +90,48 @@ const RecentWork = ({ triggerRef, triggerRef2 }) => {
             referrerPolicy="strict-origin-when-cross-origin"
             allowFullScreen
           ></iframe> */}
-          <iframe
-            id="youtube-video-1"
-            width="560"
-            height="315"
-            src={videoSrc1}
-            title="YouTube video player"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            // referrerPolicy="strict-origin-when-cross-origin"
-            allowFullScreen
-          ></iframe>
-          <iframe
-            id="youtube-video-1"
-            width="560"
-            height="315"
-            src={videoSrc2}
-            title="YouTube video player"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            // referrerPolicy="strict-origin-when-cross-origin"
-            allowFullScreen
-          ></iframe>
+          <div className="video-and-desc">
+            <iframe
+              id="youtube-video-1"
+              width="560"
+              height="315"
+              src={videoSrc1}
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              // referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+            ></iframe>
+            <div className="video-desc">
+              My client needed to clearly explain a complex algorithm to their
+              CEO. Working from a detailed text file, I designed a concise
+              visual that made the process easy to grasp, effectively
+              highlighting how the algorithm saves the company valuable time.
+              The CEO quickly understood the impact, helping the team secure
+              buy-in for their solution.
+            </div>
+          </div>
+          <div className="video-and-desc">
+            <iframe
+              id="youtube-video-1"
+              width="560"
+              height="315"
+              src={videoSrc2}
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              // referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+            ></iframe>
+            <div className="video-desc">
+              For this end-of-year business unit presentation, my client
+              provided a text-only PowerPoint outline. I transformed it into a
+              visually engaging deck that helped the team share their
+              achievements and insights with clarity. The completed presentation
+              helped the team present with confidence and earned positive
+              feedback from leadership.
+            </div>
+          </div>
         </div>
       </div>
     </section>

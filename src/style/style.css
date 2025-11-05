@@ -17,8 +17,8 @@
   --color-theme-light: rgb(238, 149, 189);
   /* --color-theme-light: #ecc74d; */
   /* color: #252525; */
-  --color-theme-blue: #2A2C27;
-  color: #2A2C27;
+  --color-theme-blue: #2a2c27;
+  color: #2a2c27;
   font-size: 1rem;
   box-sizing: border-box;
   scrollbar-width: thin;
@@ -385,7 +385,8 @@ button:active {
 
 /* ContactMe component */
 
-.hire-me-button, #HireMeButton {
+.hire-me-button,
+#HireMeButton {
   margin-top: 20px;
   font-size: 1.6rem;
   text-decoration: none;
@@ -466,14 +467,12 @@ button:active {
   justify-content: center;
 }
 
-
 .introduction-layout {
   display: flex;
   flex-direction: row;
   max-width: 1200px;
   gap: 100px;
 }
-
 
 .mobile-introduction-images {
   display: none;
@@ -486,7 +485,8 @@ button:active {
   margin-left: 160px;
 }
 
-.intro-image-desktop, .intro-image-mobile {
+.intro-image-desktop,
+.intro-image-mobile {
   border-radius: 10px;
   box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.3);
 }
@@ -537,6 +537,23 @@ button:active {
   left: 90px;
 }
 
+/* RecentWork / Case Studies component */
+
+.video-and-desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.video-desc {
+  /* text-align: center; */
+  line-height: 1.7;
+  color: var(--color-theme-blue);
+  align-content: center;
+  max-width: 500px;
+}
 
 /* Media Queries */
 

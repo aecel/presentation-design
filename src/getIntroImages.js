@@ -17,8 +17,8 @@ const getIntroImages = () => {
   for (const image of presentationImages) {
     presentations.push({
       src: image,
-      width: 1280/4,
-      height: 720/4,
+      width: 384,
+      height: 216,
       name: `Slide ${presentationImages.indexOf(image)}`,
     })
   }
