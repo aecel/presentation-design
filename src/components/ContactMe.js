@@ -45,7 +45,7 @@ const ContactMe = ({ triggerRef, triggerRef2 }) => {
             // gap: "2px",
             textAlign: "center",
             zIndex: "1",
-            lineHeight: "3",
+            lineHeight: "2",
             margin: "20px",
           }}
         >
