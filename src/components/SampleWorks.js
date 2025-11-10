@@ -1,8 +1,10 @@
-import getBeforeAndAfterImages from "../getBeforeAndAfterImages"
+// import getBeforeAndAfterImages from "../getBeforeAndAfterImages"
 import getIllustrationImages from "../getIllustrationImages"
 import getPresentationImages from "../getPresentationImages"
 import getWebDesignImages from "../getWebDesignImages"
+import BeforeSection from "./BeforeSection"
 import ImageGrid from "./ImageGrid"
+import SlickSlider from "./SlickSlider"
 
 const SampleWorks = ({
   presentationRef,
@@ -14,7 +16,7 @@ const SampleWorks = ({
   illustrationsRef2,
   webDesignRef2,
 }) => {
-  const beforeAndAfterImages = getBeforeAndAfterImages()
+  // const beforeAndAfterImages = getBeforeAndAfterImages()
   const illustrationImages = getIllustrationImages()
   const presentationImages = getPresentationImages()
   const webDesignImages = getWebDesignImages()
@@ -29,14 +31,14 @@ const SampleWorks = ({
         imagesArray={presentationImages}
       />
       {/* <Divider /> */}
-      <ImageGrid
+      <BeforeSection
         triggerRef={beforeAfterRef}
         triggerRef2={beforeAfterRef2}
         id="PresentationBeforeAndAfter"
         title="Before and After"
-        imagesArray={beforeAndAfterImages}
-        subtitle="Comparison of the input slide (from the client) to the final product"
+        subtitle="Comparison of the old slide (left) to the final slide (right). Drag the slider from right to left."
       />
+      <SlickSlider />
       {/* <Divider /> */}
       <ImageGrid
         triggerRef={illustrationsRef}

@@ -9,10 +9,13 @@
     "@testing-library/user-event": "^13.5.0",
     "photoswipe": "^5.3.5",
     "react": "^18.2.0",
+    "react-before-after-slider-component": "^1.1.8",
     "react-dom": "^18.2.0",
     "react-photoswipe-gallery": "^2.2.6",
     "react-scripts": "5.0.1",
+    "react-slick": "^0.31.0",
     "shade-generator": "^1.2.7",
+    "slick-carousel": "^1.8.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
