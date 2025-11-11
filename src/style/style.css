@@ -557,17 +557,17 @@ button:active {
 
 /* Responsive Image 960x540 (for SlickSlider)*/
 
-.responsive-image-container {
+/* .responsive-image-container {
   width: 100%;
   aspect-ratio: 960 / 540;
   overflow: hidden;
-}
+} */
 
 .responsive-image-container img {
-  width: 100%;
+  /* width: 100%;
   height: 100%;
   object-fit: cover;
-  display: block;
+  display: block; */
   border-radius: 15px;
 }
 
@@ -585,11 +585,18 @@ button:active {
   width: 10px;
 }
 
-.slick-list {
+/* .slick-list {
   width: 100%;
   max-width: 1200px;
   display: block;
-}
+} */
+
+/* .slick-list,
+.slick-slider,
+.slick-track {
+  margin: 0 !important;
+  padding: 0 !important;
+} */
 /* .before-slider-component {
   width: 100%;
   aspect-ratio: 960 / 540;

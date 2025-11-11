@@ -11,7 +11,7 @@ const delimiterIconStyle = {
 }
 
 const SliderComp = ({ firstImage, secondImage }) => (
-  <div className="responsive-image-container" style={{ width: "90%" }}>
+  <div className="responsive-image-container">
     <ReactBeforeSliderComponent
       firstImage={firstImage}
       secondImage={secondImage}

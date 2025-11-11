@@ -1,9 +1,6 @@
 import "photoswipe/dist/photoswipe.css"
 import { useEffect, useRef } from "react"
-import { Gallery } from "react-photoswipe-gallery"
-import ImageItem from "./ImageItem"
 import SpacingForHeader from "./SpacingForHeader"
-import SlickSlider from "./SlickSlider"
 
 const BeforeSection = ({ id, title, subtitle, triggerRef, triggerRef2 }) => {
   const sectionRef = useRef()
