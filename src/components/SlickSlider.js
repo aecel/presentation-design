@@ -49,6 +49,7 @@ export default function SlickSlider() {
     slidesToShow: 1,
     slidesToScroll: 1,
     waitForAnimate: false,
+    swipeToSlide: false,
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
   }
