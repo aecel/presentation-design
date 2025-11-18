@@ -3,29 +3,8 @@ const numOfYears = yearNow - 2017
 
 const MoreAboutMe = () => {
   return (
-    <div
-      style={{
-        backgroundColor: "#2c2c2c",
-        color: "#e6e6e6",
-        alignItems: "center",
-        justifyItems: "center",
-        display: "flex",
-        flexDirection: "column",
-        height: "900px",
-      }}
-    >
-      <div
-        className="flex-center"
-        style={{
-          alignSelf: "center",
-          maxWidth: "600px",
-          gap: "50px",
-          textAlign: "left",
-          zIndex: "1",
-          lineHeight: "2",
-          margin: "20px",
-        }}
-      >
+    <div className="more-about-me-section">
+      <div className="flex-center more-about-me-text">
         <h1
           className="grid-title"
           style={{

@@ -54,15 +54,7 @@ export default function SlickSlider() {
     prevArrow: <SamplePrevArrow />,
   }
   return (
-    <Slider
-      {...settings}
-      style={{
-        width: "90%",
-        maxWidth: "1200px",
-        boxShadow: "5px 5px 3px rgba(0, 0, 0, 0.3)",
-        borderRadius: "15px",
-      }}
-    >
+    <Slider {...settings} className="main-slick-slider">
       {sliderComps}
     </Slider>
   )

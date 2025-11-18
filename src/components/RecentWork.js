@@ -92,6 +92,7 @@ const RecentWork = ({ triggerRef, triggerRef2 }) => {
           ></iframe> */}
           <div className="video-and-desc">
             <iframe
+              class="youtube-video"
               id="youtube-video-1"
               width="560"
               height="315"
@@ -113,7 +114,8 @@ const RecentWork = ({ triggerRef, triggerRef2 }) => {
           </div>
           <div className="video-and-desc">
             <iframe
-              id="youtube-video-1"
+              class="youtube-video"
+              id="youtube-video-2"
               width="560"
               height="315"
               src={videoSrc2}

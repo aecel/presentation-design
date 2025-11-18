@@ -41,7 +41,6 @@ const ContactMe = ({ triggerRef, triggerRef2 }) => {
           className="flex-center"
           style={{
             alignSelf: "center",
-            maxWidth: "600px",
             // gap: "2px",
             textAlign: "center",
             zIndex: "1",
