@@ -62,13 +62,13 @@ button {
   width: 120px;
 }
 
-button:hover {
+/* button:hover {
   background-color: var(--color-theme);
-}
+} */
 
-button:active {
+/* button:active {
   background-color: var(--color-theme-dark);
-}
+} */
 
 header,
 footer {
@@ -156,9 +156,9 @@ footer {
   border-radius: 0;
 }
 
-.hamburger-item:hover {
+/* .hamburger-item:hover {
   background-color: gray;
-}
+} */
 
 button#theme-toggle {
   display: flex;
@@ -227,9 +227,9 @@ button:hover {
   background-color: var(--color-theme);
 }
 
-button:active {
+/* button:active {
   background-color: var(--color-theme-dark);
-}
+} */
 
 /* Divider component */
 
@@ -422,13 +422,13 @@ button:active {
   border-radius: 36px;
 }
 
-#HireMeButton:hover {
+/* #HireMeButton:hover {
   background-color: var(--color-theme-light);
-}
+} */
 
-#HireMeButton:active {
+/* #HireMeButton:active {
   background-color: var(--color-theme-dark);
-}
+} */
 
 /* Software Block component */
 

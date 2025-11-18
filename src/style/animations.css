@@ -29,7 +29,7 @@ button:hover {
 a,
 button {
   animation-name: backToNormal;
-  animation-duration: 300ms;
+  animation-duration: 200ms;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   animation-timing-function: ease-in-out;
@@ -45,5 +45,27 @@ button {
   }
   100% {
     scale: 1;
+  }
+}
+
+a:active,
+button:active {
+  animation-name: heartbeat;
+  animation-duration: 0ms;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+  z-index: 2;
+}
+/* Button gets emphasized when clicked*/
+@keyframes heartbeat {
+  0% {
+    scale: 1.2;
+  }
+  50% {
+    scale: 1.15;
+  }
+  100% {
+    scale: 1.2;
   }
 }
