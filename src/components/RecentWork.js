@@ -40,14 +40,23 @@ const RecentWork = ({ triggerRef, triggerRef2 }) => {
         <h1 className="grid-title">Case Studies</h1>
         <div
           style={{
-            textAlign: "center",
+            textAlign: "left",
             lineHeight: "2",
             marginBottom: "20px",
             color: "rgb(49, 49, 49)",
           }}
         >
-          PowerPoint presentations with animations. All samples are posted with
-          permission from the clients.
+          Because I value confidentiality and protect my clients’ sensitive
+          information, I can’t share most of the executive presentations, sales
+          decks, and pitch decks I’ve designed over the years. Much of my work
+          includes private business data and strategic insights that I treat
+          with the utmost care. However, I’m happy to showcase a few select
+          projects here. These samples will give you a feel for my presentation
+          design style, creative process, and the collaborative way I work with
+          clients. Even without sensitive details, you’ll see the level of
+          clarity, impact, and storytelling I bring to every PowerPoint
+          presentation, corporate deck, and infographic. All samples are posted
+          with permission from the clients.
         </div>
         <div
           style={{

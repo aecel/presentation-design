@@ -94,6 +94,10 @@ footer {
   background-color: var(--color-theme-blue);
 }
 
+ul {
+  padding: 0;
+}
+
 .emphasize-text {
   color: var(--color-theme);
   font-weight: bold;
@@ -213,7 +217,7 @@ main {
 
 button {
   font-size: 1rem;
-  font-family: "Lato", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", "Lato", Tahoma, Geneva, Verdana, sans-serif;
   color: white;
   background-color: var(--color-theme-dark);
   padding: 15px 25px 15px 25px;
@@ -350,12 +354,16 @@ button:hover {
   display: flex;
   flex-direction: column;
   max-width: 100%;
+  text-align: left;
 }
 
 .more-about-me-text {
-  align-self: center;
-  max-width: 600px;
-  gap: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  max-width: 800px;
+  gap: 20px;
   text-align: left;
   z-index: 1;
   line-height: 2;
