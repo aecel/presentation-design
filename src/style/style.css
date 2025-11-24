@@ -414,6 +414,26 @@ button:hover {
   border-radius: 10px;
 }
 
+/* Wistia Video Embed */
+
+/* Placeholder for first video */
+wistia-player[media-id="kbt3hk7eyp"]:not(:defined) {
+  background: center / contain no-repeat
+    url("https://fast.wistia.com/embed/medias/kbt3hk7eyp/swatch");
+  display: block;
+  filter: blur(5px);
+  padding-top: 56.25%; /* 16:9 */
+}
+
+/* Placeholder for second video (example media ID) */
+wistia-player[media-id="l7c75cr5na"]:not(:defined) {
+  background: center / contain no-repeat
+    url("https://fast.wistia.com/embed/medias/l7c75cr5na/swatch");
+  display: block;
+  filter: blur(5px);
+  padding-top: 56.25%;
+}
+
 /* ContactMe component */
 
 .hire-me-button,
@@ -584,10 +604,10 @@ button:hover {
 
 .video-desc {
   /* text-align: center; */
-  line-height: 1.7;
+  line-height: 2;
   color: var(--color-theme-blue);
   align-content: center;
-  max-width: 500px;
+  /* max-width: 500px; */
 }
 
 /* Responsive Image 960x540 (for SlickSlider)*/

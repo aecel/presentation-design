@@ -60,6 +60,7 @@ const ContactMe = ({ triggerRef, triggerRef2 }) => {
           id="HireMeButton"
           href="https://calendly.com/acunapresentations"
           target="_blank"
+          rel="noreferrer"
         >
           Book a Meeting
         </a>

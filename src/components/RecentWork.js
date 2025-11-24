@@ -1,4 +1,5 @@
 import { useEffect, useRef } from "react"
+import WistiaEmbed from "./WistiaEmbed"
 // import VideoSample from "./VideoSample"
 const RecentWork = ({ triggerRef, triggerRef2 }) => {
   // const videoId1 = "u6b4OhUfLv8"
@@ -67,41 +68,9 @@ const RecentWork = ({ triggerRef, triggerRef2 }) => {
             justifyContent: "center",
           }}
         >
-          {/* <iframe
-            id="youtube-video"
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/VIDEO_ID?mute=1"
-            frameborder="0"
-            allow="autoplay; encrypted-media"
-            allowfullscreen
-          ></iframe> */}
-          {/* <iframe
-            id="youtube-video-1"
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/u6b4OhUfLv8?si=kcE7BclQgqviyHWf?mute=1"
-            title="YouTube video player"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            // referrerPolicy="strict-origin-when-cross-origin"
-            allowFullScreen
-          ></iframe> */}
-          {/* <VideoSample videoId={videoId1} />
-          <VideoSample videoId={videoId2} /> */}
-          {/* <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/Bryz_dnEitM?si=GZQxrJNkrYkLcREK"
-            title="YouTube video player"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerPolicy="strict-origin-when-cross-origin"
-            allowFullScreen
-          ></iframe> */}
           <div className="video-and-desc">
-            <iframe
-              class="youtube-video"
+            {/* <iframe
+              className="youtube-video"
               id="youtube-video-1"
               width="560"
               height="315"
@@ -109,9 +78,10 @@ const RecentWork = ({ triggerRef, triggerRef2 }) => {
               title="YouTube video player"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              // referrerPolicy="strict-origin-when-cross-origin"
+              referrerPolicy="strict-origin-when-cross-origin"
               allowFullScreen
-            ></iframe>
+            ></iframe> */}
+            <WistiaEmbed mediaId="kbt3hk7eyp" aspect={16 / 9} />
             <div className="video-desc">
               My client needed to clearly explain a complex algorithm to their
               CEO. Working from a detailed text file, I designed a concise
@@ -122,8 +92,8 @@ const RecentWork = ({ triggerRef, triggerRef2 }) => {
             </div>
           </div>
           <div className="video-and-desc">
-            <iframe
-              class="youtube-video"
+            {/* <iframe
+              className="youtube-video"
               id="youtube-video-2"
               width="560"
               height="315"
@@ -133,7 +103,8 @@ const RecentWork = ({ triggerRef, triggerRef2 }) => {
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               // referrerPolicy="strict-origin-when-cross-origin"
               allowFullScreen
-            ></iframe>
+            ></iframe> */}
+            <WistiaEmbed mediaId="l7c75cr5na" aspect={16 / 9} />
             <div className="video-desc">
               For this end-of-year business unit presentation, my client
               provided a text-only PowerPoint outline. I transformed it into a

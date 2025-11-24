@@ -98,9 +98,10 @@ const Introduction = ({ triggerRef, triggerRef2 }) => {
             <em className="emphasize-text">focus on what matters</em>.
           </div>
           <a
-            class="hire-me-button"
+            className="hire-me-button"
             href="https://calendly.com/acunapresentations"
             target="_blank"
+            rel="noreferrer"
           >
             Book a Meeting
           </a>
