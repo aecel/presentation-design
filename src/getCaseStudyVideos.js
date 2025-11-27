@@ -11,12 +11,12 @@ const getCaseStudyVideos = () => {
           The CEO quickly understood the impact, helping the team secure
           buy-in for their solution.`,
     },
-    {
-      id: "w8lqjd4iwq",
-      title:
-        "In‑House Web Application Presentation Design: Explaining the Tech Stack and Business Impact",
-      desc: `For this internal project, I designed a presentation to introduce a new in‑house custom web application. The deck walked stakeholders through the problem the app solves, the chosen tech stack and architecture, and the measurable impact on workflow efficiency. I transformed technical details into clear visuals and narratives so both technical and non‑technical audiences could understand how the application works and why it matters to the business.`,
-    },
+    // {
+    //   id: "w8lqjd4iwq",
+    //   title:
+    //     "In‑House Web Application Presentation Design: Explaining the Tech Stack and Business Impact",
+    //   desc: `For this internal project, I designed a presentation to introduce a new in‑house custom web application. The deck walked stakeholders through the problem the app solves, the chosen tech stack and architecture, and the measurable impact on workflow efficiency. I transformed technical details into clear visuals and narratives so both technical and non‑technical audiences could understand how the application works and why it matters to the business.`,
+    // },
     {
       id: "l7c75cr5na",
       title:
