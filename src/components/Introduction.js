@@ -3,7 +3,7 @@ import SpacingForHeader from "./SpacingForHeader"
 import getIntroImages from "../getIntroImages"
 
 const yearNow = new Date().getFullYear()
-const numOfYears = yearNow - 2017
+// const numOfYears = yearNow - 2017
 
 const Introduction = ({ triggerRef, triggerRef2 }) => {
   const sectionRef = useRef()
@@ -41,7 +41,7 @@ const Introduction = ({ triggerRef, triggerRef2 }) => {
               <img
                 className="intro-image-mobile"
                 src={src}
-                width={width*0.9}
+                width={width * 0.9}
                 // height={height}
                 key={index}
                 fetchPriority="high"
@@ -66,22 +66,6 @@ const Introduction = ({ triggerRef, triggerRef2 }) => {
             zIndex: "1",
           }}
         >
-          {/* <img
-            src={introductionGif}
-            alt=""
-            style={{
-              width: "300px",
-              height: "auto",
-            }}
-          /> */}
-          {/* <img
-            src={APLogo}
-            alt=""
-            style={{
-              width: "150px",
-              height: "auto",
-            }}
-          /> */}
           <h1 className="grid-title-intro">Hi, I'm Ace</h1>
           <div className="introduction-text">
             {/* I'm a freelance designer specializing in{" "}
@@ -99,7 +83,7 @@ const Introduction = ({ triggerRef, triggerRef2 }) => {
           </div>
           <a
             className="hire-me-button"
-            href="https://calendly.com/acunapresentations"
+            href="https://calendly.com/presentationace"
             target="_blank"
             rel="noreferrer"
           >
@@ -135,7 +119,6 @@ const Introduction = ({ triggerRef, triggerRef2 }) => {
           </div>
         </div>
       </div>
-      {/* <WavesVideo /> */}
     </section>
   )
 }
