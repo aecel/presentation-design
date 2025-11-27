@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/presentation-design/static/css/main.452c0c58.css",
-    "main.js": "/presentation-design/static/js/main.cb701a36.js",
+    "main.css": "/presentation-design/static/css/main.41bd4e50.css",
+    "main.js": "/presentation-design/static/js/main.2c9bd99b.js",
     "static/media/weather-app.png": "/presentation-design/static/media/weather-app.89b86403fb1f4365d0f6.png",
     "static/media/restaurant.webp": "/presentation-design/static/media/restaurant.8e673b08a58957b4441d.webp",
     "static/media/Slide002.avif": "/presentation-design/static/media/Slide002.e12ec1083c3764c445c3.avif",
@@ -82,11 +82,11 @@
     "static/media/H&Z.svg": "/presentation-design/static/media/H&Z.f9eb4054380d227b0235.svg",
     "static/media/Valcon.svg": "/presentation-design/static/media/Valcon.4f82785b596e97173172.svg",
     "index.html": "/presentation-design/index.html",
-    "main.452c0c58.css.map": "/presentation-design/static/css/main.452c0c58.css.map",
-    "main.cb701a36.js.map": "/presentation-design/static/js/main.cb701a36.js.map"
+    "main.41bd4e50.css.map": "/presentation-design/static/css/main.41bd4e50.css.map",
+    "main.2c9bd99b.js.map": "/presentation-design/static/js/main.2c9bd99b.js.map"
   },
   "entrypoints": [
-    "static/css/main.452c0c58.css",
-    "static/js/main.cb701a36.js"
+    "static/css/main.41bd4e50.css",
+    "static/js/main.2c9bd99b.js"
   ]
 }
