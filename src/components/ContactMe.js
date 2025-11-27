@@ -66,13 +66,13 @@ const ContactMe = ({ triggerRef, triggerRef2 }) => {
         </a>
         <a
           className="email-link"
-          href="mailto:acepresentationace@gmail.com?subject=Hello%20Ace!&body=I%20would%20love%20to%20know%20more%20about%20your%20services.%20Here%20are%20the%20details%20of%20my%20project."
+          href="mailto:ace@presentationace.com?subject=Hello%20Ace!&body=I%20would%20love%20to%20know%20more%20about%20your%20services.%20Here%20are%20the%20details%20of%20my%20project."
           target="_blank"
           rel="noreferrer"
         >
           Prefer email? Contact me here
         </a>
-        <div>Email: acepresentationace@gmail.com | sniffysloth@gmail.com</div>
+        <div>Email: ace@presentationace.com</div>
       </div>
       {/* <WavesVideo /> */}
     </section>
