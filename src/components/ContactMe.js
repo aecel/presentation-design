@@ -64,7 +64,7 @@ const ContactMe = ({ triggerRef, triggerRef2 }) => {
         >
           Book a Meeting
         </a>
-        <div>Email: acunapresentations@gmail.com | sniffysloth@gmail.com</div>
+        <div>Email: acepresentationace@gmail.com | sniffysloth@gmail.com</div>
       </div>
       {/* <WavesVideo /> */}
     </section>
