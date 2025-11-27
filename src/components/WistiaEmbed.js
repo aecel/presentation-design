@@ -1,72 +1,75 @@
 import React, { useEffect, useState } from "react"
 
-const WistiaEmbed = ({
-  mediaId, // e.g. "kbt3hk7eyp"
-  aspect = 16 / 9, // default aspect ratio
-  className,
-  style,
-}) => {
+const WistiaEmbed = ({ mediaId, aspect = 16 / 9, className, style }) => {
   const [ready, setReady] = useState(false)
+  const [playerScriptLoading, setPlayerScriptLoading] = useState(false)
+  const [embedScriptLoading, setEmbedScriptLoading] = useState(false)
+  const [playerScriptLoaded, setPlayerScriptLoaded] = useState(false)
+  const [embedScriptLoaded, setEmbedScriptLoaded] = useState(false)
 
   useEffect(() => {
-    let loadedCount = 0
-    const onLoaded = () => {
-      loadedCount += 1
-      // We expect 2 scripts: player.js + this video's embed script
-      if (loadedCount === 2) {
-        setReady(true)
-      }
+    if (playerScriptLoaded && embedScriptLoaded) {
+      setReady(true)
+      return
     }
 
-    // 1) Load global player.js (shared by all Wistia videos)
-    let playerScript = document.querySelector(
-      'script[src="https://fast.wistia.com/player.js"]'
-    )
-    if (!playerScript) {
-      playerScript = document.createElement("script")
-      playerScript.src = "https://fast.wistia.com/player.js"
-      playerScript.async = true
-      playerScript.onload = onLoaded
-      document.body.appendChild(playerScript)
-    } else {
-      onLoaded()
-    }
-
-    // 2) Load this video's embed script (specific to mediaId)
+    const playerSrc = "https://fast.wistia.com/player.js"
     const embedSrc = `https://fast.wistia.com/embed/${mediaId}.js`
+
+    let playerScript = document.querySelector(`script[src="${playerSrc}"]`)
     let embedScript = document.querySelector(`script[src="${embedSrc}"]`)
-    if (!embedScript) {
+
+    // Load player.js if needed
+    if (!playerScript && !playerScriptLoading) {
+      playerScript = document.createElement("script")
+      playerScript.src = playerSrc
+      playerScript.async = true
+      playerScript.onerror = () => {
+        console.error("Failed to load Wistia player.js")
+      }
+      playerScript.onload = () => {
+        setPlayerScriptLoaded(true)
+        console.log("player script loaded for", mediaId)
+      }
+      document.body.appendChild(playerScript)
+      setPlayerScriptLoading(true)
+    } else if (playerScript) {
+      setPlayerScriptLoaded(true)
+    }
+
+    // Load embed script for this video if needed
+    if (!embedScript && !embedScriptLoading) {
       embedScript = document.createElement("script")
       embedScript.src = embedSrc
       embedScript.type = "module"
       embedScript.async = true
-      embedScript.onload = onLoaded
+      embedScript.onload = () => {
+        setEmbedScriptLoaded(true)
+        console.log("embed script loaded for ", mediaId)
+      }
+      embedScript.onerror = () => {
+        console.error(`Failed to load Wistia embed script for ${mediaId}`)
+      }
       document.body.appendChild(embedScript)
-    } else {
-      onLoaded()
+      setEmbedScriptLoading(true)
+    } else if (embedScript) {
+      setEmbedScriptLoaded(true)
     }
-  }, [mediaId])
-
-//   const paddingTop = `${(1 / aspect) * 100}%` // e.g. 56.25% for 16:9
+  }, [
+    mediaId,
+    playerScriptLoaded,
+    embedScriptLoaded,
+    playerScriptLoading,
+    embedScriptLoading,
+  ])
 
   return (
-    <div
-      className={className}
-    //   style={{
-    //     maxWidth: "800px",
-    //     margin: "2rem auto",
-    //     position: "relative",
-    //     ...style,
-    //   }}
-    >
-      {!ready && <div>Loading video…</div>}
-
-      {/* Custom element from Wistia */}
-      <wistia-player
-        media-id={mediaId}
-        aspect={aspect}
-        // style={{ display: "block", paddingTop }}
-      ></wistia-player>
+    <div className={className} style={style}>
+      {ready ? (
+        <wistia-player media-id={mediaId} aspect={aspect}></wistia-player>
+      ) : (
+        <div>Loading Video...</div>
+      )}
     </div>
   )
 }

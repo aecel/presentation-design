@@ -1,5 +1,7 @@
 import { useEffect, useRef } from "react"
 import WistiaEmbed from "./WistiaEmbed"
+import getCaseStudyVideos from "../getCaseStudyVideos"
+import VideoSectionList from "./VideoSectionList"
 // import VideoSample from "./VideoSample"
 const RecentWork = ({ triggerRef, triggerRef2 }) => {
   // const videoId1 = "u6b4OhUfLv8"
@@ -10,6 +12,7 @@ const RecentWork = ({ triggerRef, triggerRef2 }) => {
   const videoId2 = "qigrdFR74bM"
   const videoSrc2 = `https://www.youtube.com/embed/${videoId2}?&mute=1&loop=1&playlist=${videoId2}`
   const sectionRef = useRef()
+  const caseStudyVideos = getCaseStudyVideos()
 
   const scroll = () => {
     sectionRef.current.scrollIntoView({ behavior: "smooth", block: "start" })
@@ -59,7 +62,7 @@ const RecentWork = ({ triggerRef, triggerRef2 }) => {
           presentation, corporate deck, and infographic. All samples are posted
           with permission from the clients.
         </div>
-        <div
+        {/* <div
           style={{
             width: "100%",
             display: "flex",
@@ -69,18 +72,6 @@ const RecentWork = ({ triggerRef, triggerRef2 }) => {
           }}
         >
           <div className="video-and-desc">
-            {/* <iframe
-              className="youtube-video"
-              id="youtube-video-1"
-              width="560"
-              height="315"
-              src={videoSrc1}
-              title="YouTube video player"
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerPolicy="strict-origin-when-cross-origin"
-              allowFullScreen
-            ></iframe> */}
             <WistiaEmbed mediaId="kbt3hk7eyp" aspect={16 / 9} />
             <div className="video-desc">
               My client needed to clearly explain a complex algorithm to their
@@ -92,18 +83,6 @@ const RecentWork = ({ triggerRef, triggerRef2 }) => {
             </div>
           </div>
           <div className="video-and-desc">
-            {/* <iframe
-              className="youtube-video"
-              id="youtube-video-2"
-              width="560"
-              height="315"
-              src={videoSrc2}
-              title="YouTube video player"
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              // referrerPolicy="strict-origin-when-cross-origin"
-              allowFullScreen
-            ></iframe> */}
             <WistiaEmbed mediaId="l7c75cr5na" aspect={16 / 9} />
             <div className="video-desc">
               For this end-of-year business unit presentation, my client
@@ -114,7 +93,8 @@ const RecentWork = ({ triggerRef, triggerRef2 }) => {
               feedback from leadership.
             </div>
           </div>
-        </div>
+        </div> */}
+        <VideoSectionList videos={caseStudyVideos} />
       </div>
     </section>
   )
