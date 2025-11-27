@@ -371,6 +371,13 @@ button:hover {
   margin-bottom: 100px;
 }
 
+/* Hero */
+
+.email-link {
+  font-size: small;
+  color: var(--color-theme-dark);
+}
+
 /* Image Grid component */
 
 .grid-title {
@@ -436,8 +443,7 @@ wistia-player[media-id="l7c75cr5na"]:not(:defined) {
 
 /* ContactMe component */
 
-.hire-me-button,
-#HireMeButton {
+.hire-me-button {
   margin-top: 20px;
   font-size: 1.6rem;
   text-decoration: none;

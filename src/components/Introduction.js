@@ -87,7 +87,15 @@ const Introduction = ({ triggerRef, triggerRef2 }) => {
             target="_blank"
             rel="noreferrer"
           >
-            Book a Meeting
+            Schedule a Call
+          </a>
+          <a
+            className="email-link"
+            href="mailto:acepresentationace@gmail.com?subject=Hello%20Ace!&body=I%20would%20love%20to%20know%20more%20about%20your%20services.%20Here%20are%20the%20details%20of%20my%20project."
+            target="_blank"
+            rel="noreferrer"
+          >
+            Prefer email? Contact me here
           </a>
           {/* <div className="introduction-text">
             I'm a freelance{" "}
