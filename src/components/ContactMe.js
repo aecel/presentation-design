@@ -73,6 +73,12 @@ const ContactMe = ({ triggerRef, triggerRef2 }) => {
           Prefer email? Contact me here
         </a>
         <div>Email: ace@presentationace.com</div>
+        <a
+          className="email-link"
+          href="https://gravatar.com/presentationace"
+          target="_blank"
+          rel="noreferrer"
+        >My Social Links</a>
       </div>
       {/* <WavesVideo /> */}
     </section>
