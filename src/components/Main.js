@@ -78,6 +78,14 @@ const Main = () => {
           <button className="header-button" ref={contactMeRef}>
             Contact Me
           </button>
+          <a
+            className="portal-button"
+            href="https://portal.presentationace.com"
+            target="_blank"
+            rel="noreferrer"
+          >
+            To Client Portal →
+          </a>
         </div>
         <button
           id="hamburger-menu-button"
@@ -141,6 +149,15 @@ const Main = () => {
           >
             Contact Me
           </button>
+          <a
+            className="hamburger-item portal-button-hamburger"
+            href="https://portal.presentationace.com"
+            target="_blank"
+            rel="noreferrer"
+            onClick={toggleHamburgerMenu}
+          >
+            Client Portal →
+          </a>
         </div>
         {/* <button id="theme-toggle"></button> */}
       </header>

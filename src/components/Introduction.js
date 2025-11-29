@@ -2,8 +2,8 @@ import { useEffect, useRef } from "react"
 import SpacingForHeader from "./SpacingForHeader"
 import getIntroImages from "../getIntroImages"
 
-const yearNow = new Date().getFullYear()
-// const numOfYears = yearNow - 2017
+// const yearNow = new Date().getFullYear()
+// // const numOfYears = yearNow - 2017
 
 const Introduction = ({ triggerRef, triggerRef2 }) => {
   const sectionRef = useRef()
@@ -71,7 +71,7 @@ const Introduction = ({ triggerRef, triggerRef2 }) => {
             {/* I'm a freelance designer specializing in{" "}
             <em className="emphasize-text">presentation design </em>
             and <em className="emphasize-text">vector illustration</em>. */}
-            Your on-call PowerPoint expert.
+            Your on-call PowerPoint expert for executive presentations.
           </div>
           <div className="introduction-text" style={{ maxWidth: "400px" }}>
             {/* I have <em className="emphasize-text">{numOfYears + 3} years</em> of

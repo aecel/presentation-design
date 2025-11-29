@@ -456,6 +456,28 @@ wistia-player[media-id="l7c75cr5na"]:not(:defined) {
   border-radius: 36px;
 }
 
+.portal-button {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  padding: 5px 10px 5px 10px;
+  background-color: var(--color-theme-gray);
+  border-style: outset;
+  border-color: var(--color-theme);
+  border-radius: 36px;
+}
+
+.portal-button-hamburger {
+  text-decoration: none;
+  font-size: 1rem;
+  font-family: "Lato", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  background-color: var(--color-theme-dark);
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+
 /* #HireMeButton:hover {
   background-color: var(--color-theme-light);
 } */
