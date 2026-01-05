@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/presentation-design/static/css/main.cff51df0.css",
-    "main.js": "/presentation-design/static/js/main.7e0ebaa4.js",
+    "main.js": "/presentation-design/static/js/main.763a21d0.js",
     "static/media/weather-app.png": "/presentation-design/static/media/weather-app.89b86403fb1f4365d0f6.png",
     "static/media/restaurant.webp": "/presentation-design/static/media/restaurant.8e673b08a58957b4441d.webp",
     "static/media/Slide002.avif": "/presentation-design/static/media/Slide002.e12ec1083c3764c445c3.avif",
@@ -74,6 +74,7 @@
     "static/media/good omens v1-01.webp": "/presentation-design/static/media/good omens v1-01.d45b97915673e712066c.webp",
     "static/media/Gates Foundation.png": "/presentation-design/static/media/Gates Foundation.95f6a58750bbdb803e41.png",
     "static/media/Slide17.webp": "/presentation-design/static/media/Slide17.89bc2c1d8e03bb04a47e.webp",
+    "static/media/logo-presentation-ace.svg": "/presentation-design/static/media/logo-presentation-ace.ddef7a05fdd9441d771bf6fecebb33e0.svg",
     "static/media/arrow-desktop.png": "/presentation-design/static/media/arrow-desktop.66c0ae8cb1a9552f3f95.png",
     "static/media/Paramount.png": "/presentation-design/static/media/Paramount.442b550657f73bdaef75.png",
     "static/media/Slide01-b.PNG": "/presentation-design/static/media/Slide01-b.a85bf791dfecc4b2e711.PNG",
@@ -83,10 +84,10 @@
     "static/media/Valcon.svg": "/presentation-design/static/media/Valcon.4f82785b596e97173172.svg",
     "index.html": "/presentation-design/index.html",
     "main.cff51df0.css.map": "/presentation-design/static/css/main.cff51df0.css.map",
-    "main.7e0ebaa4.js.map": "/presentation-design/static/js/main.7e0ebaa4.js.map"
+    "main.763a21d0.js.map": "/presentation-design/static/js/main.763a21d0.js.map"
   },
   "entrypoints": [
     "static/css/main.cff51df0.css",
-    "static/js/main.7e0ebaa4.js"
+    "static/js/main.763a21d0.js"
   ]
 }
