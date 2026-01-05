@@ -17,12 +17,14 @@ const getIntroVideos = () => {
   return videos
 
   //   How to Use
-  {
-    videos.map((video) => (
-      <section key={video.id}>
-        <h2>{video.title}</h2>
-        <WistiaEmbed mediaId={video.id} aspect={16 / 9} />
-      </section>
-    ))
-  }
+  // {
+  //   videos.map((video) => (
+  //     <section key={video.id}>
+  //       <h2>{video.title}</h2>
+  //       <WistiaEmbed mediaId={video.id} aspect={16 / 9} />
+  //     </section>
+  //   ))
+  // }
 }
+
+export default getIntroVideos

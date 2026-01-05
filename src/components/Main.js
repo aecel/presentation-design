@@ -7,7 +7,7 @@ import MoreAboutMe from "./MoreAboutMe"
 import RecentWork from "./RecentWork"
 import SampleWorks from "./SampleWorks"
 import SoftwareIUse from "./Brands"
-import APLogoWhite from "../images/APLogoWhite.png"
+import APLogoWhite from "../images/logo-presentation-ace.svg"
 
 const Main = () => {
   const aboutMeRef = useRef()
@@ -47,7 +47,7 @@ const Main = () => {
             src={APLogoWhite}
             alt=""
             style={{
-              width: "25px",
+              width: "150px",
               height: "auto",
             }}
           />

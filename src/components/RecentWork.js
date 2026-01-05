@@ -1,16 +1,16 @@
 import { useEffect, useRef } from "react"
-import WistiaEmbed from "./WistiaEmbed"
+// import WistiaEmbed from "./WistiaEmbed"
 import getCaseStudyVideos from "../getCaseStudyVideos"
 import VideoSectionList from "./VideoSectionList"
 // import VideoSample from "./VideoSample"
 const RecentWork = ({ triggerRef, triggerRef2 }) => {
   // const videoId1 = "u6b4OhUfLv8"
-  const videoId1 = "yH_P7d5J2tY"
+  // const videoId1 = "yH_P7d5J2tY"
 
-  const videoSrc1 = `https://www.youtube.com/embed/${videoId1}?&mute=1&loop=1&playlist=${videoId1}`
+  // const videoSrc1 = `https://www.youtube.com/embed/${videoId1}?&mute=1&loop=1&playlist=${videoId1}`
   // const videoId2 = "Bryz_dnEitM"
-  const videoId2 = "qigrdFR74bM"
-  const videoSrc2 = `https://www.youtube.com/embed/${videoId2}?&mute=1&loop=1&playlist=${videoId2}`
+  // const videoId2 = "qigrdFR74bM"
+  // const videoSrc2 = `https://www.youtube.com/embed/${videoId2}?&mute=1&loop=1&playlist=${videoId2}`
   const sectionRef = useRef()
   const caseStudyVideos = getCaseStudyVideos()
 
