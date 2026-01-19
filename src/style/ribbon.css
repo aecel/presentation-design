@@ -1,0 +1,54 @@
+/* Left-side bookmark flag */
+.site-flag {
+  position: fixed;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 9999;
+  pointer-events: none; /* only the link should be clickable */
+}
+
+/* The clickable flag */
+.site-flag__link {
+  pointer-events: auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 10px 14px;
+  border-radius: 0 999px 999px 0;
+  background: rgb(188, 66, 121);
+  color: #ffffff;
+
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-decoration: none;
+  /* border: 1px solid rgba(0, 0, 0, 0.12); */
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.25);
+
+  /* vertical-ish presentation */
+  writing-mode: horizontal-tb;
+  text-orientation: mixed;
+  letter-spacing: 0.05em;
+}
+
+/* Hover state */
+.site-flag__link:hover {
+  filter: brightness(0.98);
+}
+
+/* Optional: hide or adjust on very small screens */
+@media (max-width: 600px) {
+  .site-flag {
+    top: auto;
+    bottom: 16px;
+    transform: none;
+  }
+
+  .site-flag__link {
+    writing-mode: horizontal-tb;
+    border-radius: 999px;
+    padding: 8px 12px;
+    font-size: 0.85rem;
+  }
+}

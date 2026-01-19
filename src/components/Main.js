@@ -8,6 +8,7 @@ import RecentWork from "./RecentWork"
 import SampleWorks from "./SampleWorks"
 import SoftwareIUse from "./Brands"
 import APLogoWhite from "../images/logo-presentation-ace.svg"
+import Ribbon from "./Ribbon"
 
 const Main = () => {
   const aboutMeRef = useRef()
@@ -193,6 +194,7 @@ const Main = () => {
           triggerRef2={contactMeHamburgerRef}
         />
       </main>
+      
       <Footer />
     </>
   )
